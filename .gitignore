@@ -16,8 +16,8 @@ staticfiles/
 .env
 
 # uv
-# .uv/
-# uv.lock
+.uv/
+uv.lock
 
 # OS
 .DS_Store
