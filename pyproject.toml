@@ -9,6 +9,7 @@ dependencies = [
   "django<=6",
   "django-googler>=0.0.20",
   "pre-commit>=4.5.1",
+  "python-dotenv>=1.2.1",
 ]
 
 [dependency-groups]
