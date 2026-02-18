@@ -5,6 +5,7 @@ from dashboard.views import dashboard_webpage
 urlpatterns = [
     path("", dashboard_webpage),
     path("admin/", admin.site.urls),
-    path("auth/", include("django_googler.urls.default")),
+
     path("dashboard/", dashboard_webpage),
+    path("accounts/", include("allauth.urls")),
 ]

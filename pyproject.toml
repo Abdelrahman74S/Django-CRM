@@ -6,13 +6,19 @@ readme = "README.md"
 requires-python = ">=3.13,<3.14"
 classifiers = [ "Programming Language :: Python :: 3 :: Only", "Programming Language :: Python :: 3.13" ]
 dependencies = [
+  "cryptography>=46.0.5",
   "django<=6",
-  "django-googler>=0.0.20",
+  "django-allauth>=65.14.1",
   "pre-commit>=4.5.1",
+  "pyjwt>=2.11",
   "python-dotenv>=1.2.1",
+  "requests>=2.32.5",
+  "requests-oauthlib>=2",
+  "whitenoise>=6.11",
 ]
 
 [dependency-groups]
 dev = [
   "pip>=26.0.1",
+  "rav>=0.4.3",
 ]
